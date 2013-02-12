@@ -1,0 +1,12 @@
+[10-Feb-2013 12:05:05] PHP Fatal error:  Uncaught exception 'PDOException' with message 'invalid data source name' in /home/lwslab/public_html/sig/lib/save-signature.php:44
+Stack trace:
+#0 /home/lwslab/public_html/sig/lib/save-signature.php(44): PDO->__construct('', '', '')
+#1 /home/lwslab/public_html/sig/index.php(5): require_once('/home/lwslab/pu...')
+#2 {main}
+  thrown in /home/lwslab/public_html/sig/lib/save-signature.php on line 44
+[10-Feb-2013 12:05:50] PHP Fatal error:  Uncaught exception 'PDOException' with message 'invalid data source name' in /home/lwslab/public_html/sig/lib/save-signature.php:44
+Stack trace:
+#0 /home/lwslab/public_html/sig/lib/save-signature.php(44): PDO->__construct('', '', '')
+#1 /home/lwslab/public_html/sig/index.php(5): require_once('/home/lwslab/pu...')
+#2 {main}
+  thrown in /home/lwslab/public_html/sig/lib/save-signature.php on line 44
