@@ -49,7 +49,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
   $hostname = "localhost";
   $database = "lwslab_sig";
   $username = "lwslab_sig";
-  $password = "qbs537";
+  
   
 $fields = "signator, signature, sig_hash, ip, created";
 $values = "'$name','$output','$sig_hash','$ip','$created'";
